@@ -11,6 +11,10 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
         'Domande frequenti'
     ];
 
+    // DUPLICARE LA SEGUENTE FAQ PER QUANTE FAQ SONO PRESENTI
+    // NIDIFICARLA ALL'INTERNO DI UN'ARRAY PIù GRANDE DA CHIAMARE $frequently_asked_questions
+    // DOPODICHè NIDIFICARE L'<h2> E I <p> CREATI CON IL FOREACH IN UN FOREACH DI $frequently_asked_questions
+
     $faq = [
         'question' => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
         'answer' => [
@@ -81,6 +85,7 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
     </header>
 
     <main>
+
         <h2>
             <?php echo $faq['question'] ?>
         </h2>
