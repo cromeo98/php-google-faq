@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.ms_top-header{
+    height: 50px;
+    line-height: 50px;
+}
+
+.ms_top-header > div{
+    height: 50px;
+    line-height: 50px;
+}
+
+#logo{
+    width: 74px;
+}
+
+
+/* debug */
+.ms_blu-bord{
+    border: 1px solid blue;
+}
+
+.ms_red-bord{
+    border: 1px solid red;
+}
+
+.ms_heigth-100px{
+    height: 100px;
+}
