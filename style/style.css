@@ -1,3 +1,4 @@
+/* General */
 *{
     margin: 0;
     padding: 0;
@@ -8,10 +9,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
-    font-size: 22px;
-    font-weight: 400;
+h2, p {
     margin: 0;
+    padding: 0;
 }
 
 ul{
@@ -23,12 +23,21 @@ li{
     list-style: none;
 }
 
-.ms_top-header{
-    height: 50px;
-    line-height: 50px;
+/* header */
+header{
+    border-bottom: 1px solid #dedede;
+    padding: 10px 20px;
+    color: #5f6368;
+    opacity: 1;
 }
 
-.ms_top-header > div{
+h1{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.ms_top-header{
     height: 50px;
     line-height: 50px;
 }
@@ -37,9 +46,52 @@ li{
     width: 74px;
 }
 
+.ms_top-header > div{
+    height: 50px;
+    line-height: 50px;
+}
+
+.ms_bottom-header li{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.ms_bottom-header li a{
+    color: #5f6368;
+    opacity: 1;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.ms_bottom-header li a:hover{
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+}
+
+/* main */
+.ms_main-container{
+    width: 1042px;
+    margin: auto;
+    padding: 35px;
+}
+
+.ms_main-container > p{
+    font-size: 14px;
+}
+
+.ms_customized-by-google{
+    color: #3c4043;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    padding: 64px 0 0 0;
+}
+
 
 /* debug */
-.ms_blu-bord{
+/* .ms_blu-bord{
     border: 1px solid blue;
 }
 
@@ -49,4 +101,4 @@ li{
 
 .ms_heigth-100px{
     height: 100px;
-}
+} */
