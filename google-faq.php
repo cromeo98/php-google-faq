@@ -137,24 +137,22 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
 
     <main>
 
-    <div class="ms_main-container">
+        <div class="ms_main-container">
 
-        <?php foreach($frequently_asked_questions as $faq){ ?>
+            <?php foreach($frequently_asked_questions as $faq){ ?>
 
-            <h2 class="ms_customized-by-google pb-4">
-                <?php echo $faq['question'] ?>
-            </h2>
-
-
-            <?php foreach($faq['answer'] as $answer){ ?>
-                <p class="pb-4"> <?php echo $answer ?> </p>
-            <?php } ?>  
-
-        <?php } ?>
-
-    </div>
+                <h2 class="ms_customized-by-google pb-4">
+                    <?php echo $faq['question'] ?>
+                </h2>
 
 
+                <?php foreach($faq['answer'] as $answer){ ?>
+                    <p class="pb-4"> <?php echo $answer ?> </p>
+                <?php } ?>  
+
+            <?php } ?>
+
+        </div>
 
     </main>
 
